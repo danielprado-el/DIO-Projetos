@@ -5,18 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio 04</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div style="display: flex">
-      <div
-        style="
-          display: flex;
-          width: 300px;
-          height: 100px;
-          justify-content: space-between;
-          flex-direction: column;
-        "
-      >
+    <div class="container">
+      <div class="login">
         <input
           id="login"
           placeholder="Login"
@@ -31,9 +25,30 @@
         <input id="api-key" placeholder="Api Key" onchange="preencherApi()" />
         <button id="login-button" disabled>Login</button>
       </div>
-      <div id="search-container" style="margin-left: 20px">
+
+      <div id="search-container" class="hidden">
         <input id="search" placeholder="Escreva..." />
         <button id="search-button">Pesquisar Filme</button>
+        <button id="create-list-button">Criar Lista</button>
+        <button id="show-list-button">Mostrar Lista</button>
+      </div>
+
+      <div id="list-container" class="hidden">
+        <input
+          id="nomeDaLista"
+          placeholder="Nome da lista"
+          onchange="preencherNomeLista(event)"
+        />
+        <input
+          id="descricao"
+          placeholder="Descricao"
+          onchange="preencherDescricao(event)"
+        />
+        <button id="list-button-create" disabled>Criar Lista</button>
+        <button id="list-button-cancel">Cancelar</button>
+      </div>
+      <div id="show-list" class="hidden">
+        <button id="show-list-button-cancel">Voltar</button>
       </div>
     </div>
   </body>

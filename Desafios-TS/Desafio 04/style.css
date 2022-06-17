@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+ list-style: none;
+}
+
+.container {
+  display: flex;
+  margin: 20px 20px;
+  width: 800px;
+}
+
+.login,
+#list-container{
+  display: flex;
+  width: 300px;
+  height: 100px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#search-container.hidden,
+#list-container.hidden,
+#show-list.hidden,
+.login.hidden{
+  visibility: hidden;
+  width: 0px;
+}
+
+#search-container{
+  margin-left: 20px;
+}
+
+#lista {
+  margin-top: 10px;
+}
+
+.layout {
+  display: inline-flex;
+}
+
+.layout img{
+  width: 95px;
+  height: 140px;
+}
+
+.descricao p {
+  margin: 5px;
+}
+
+.descricao button {
+  margin: 5px;
+}
+
+#create-list-button {
+  margin-left: 5px;
+}
+
+#show-list-button {
+  margin-left: 5px;
+}
