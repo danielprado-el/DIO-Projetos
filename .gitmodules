@@ -1,3 +1,6 @@
 [submodule "instagram-dio"]
 	path = instagram-dio
 	url = git@github.com:danielprado-el/instagram-dio.git
+[submodule "TypeScript-Desafios"]
+	path = TypeScript-Desafios
+	url = git@github.com:danielprado-el/Desafios-TS.git
