@@ -4,3 +4,6 @@
 [submodule "TypeScript-Desafios"]
 	path = TypeScript-Desafios
 	url = git@github.com:danielprado-el/Desafios-TS.git
+[submodule "BookStore"]
+	path = BookStore
+	url = git@github.com:danielprado-el/BookStore-Front.git
