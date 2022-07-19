@@ -7,3 +7,6 @@
 [submodule "BookStore"]
 	path = BookStore
 	url = git@github.com:danielprado-el/BookStore-Front.git
+[submodule "Banco-Digital"]
+	path = Banco-Digital
+	url = git@github.com:danielprado-el/Banco-Digital.git
