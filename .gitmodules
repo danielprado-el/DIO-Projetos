@@ -10,3 +10,6 @@
 [submodule "Banco-Digital"]
 	path = Banco-Digital
 	url = git@github.com:danielprado-el/Banco-Digital.git
+[submodule "RickAndMorty-SpringBoot"]
+	path = RickAndMorty-SpringBoot
+	url = git@github.com:danielprado-el/RickAndMorty-SpringBoot.git
