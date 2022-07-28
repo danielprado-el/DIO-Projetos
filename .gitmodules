@@ -13,3 +13,6 @@
 [submodule "RickAndMorty-SpringBoot"]
 	path = RickAndMorty-SpringBoot
 	url = git@github.com:danielprado-el/RickAndMorty-SpringBoot.git
+[submodule "Github-Api-Interface"]
+	path = Github-Api-Interface
+	url = git@github.com:danielprado-el/Github-Api-Interface.git
