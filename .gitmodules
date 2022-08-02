@@ -16,3 +16,6 @@
 [submodule "Github-Api-Interface"]
 	path = Github-Api-Interface
 	url = git@github.com:danielprado-el/Github-Api-Interface.git
+[submodule "Shopping-DIO"]
+	path = Shopping-DIO
+	url = git@github.com:danielprado-el/Shopping-DIO.git
